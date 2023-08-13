@@ -1,1 +1,33 @@
-﻿<h1>Prueba</h1>
+﻿<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h2 class="mb-4">Registro de Cancha</h2>
+            <p>El horario para alquilar canchas es de 12md a 9pm</p>
+            <form action="/ruta/de/tu/servidor" method="POST">
+                <!-- Selector de tipo de cancha -->
+                <div class="mb-3">
+                    <label for="tipoCancha" class="form-label">Tipo de Cancha</label>
+                    <select class="form-select" id="tipoCancha" name="tipoCancha">
+                        <option value="futbol5">Fútbol 5</option>
+                        <option value="futbol9">Fútbol 9</option>
+                    </select>
+                </div>
+
+                <!-- Selector de fecha -->
+                <div class="mb-3">
+                    <label for="fecha" class="form-label">Fecha</label>
+                    <input type="date" class="form-control" id="fecha" name="fecha">
+                </div>
+
+                <!-- Selector de hora -->
+                <div class="mb-3">
+                    <label for="hora" class="form-label">Hora</label>
+                    <input type="time" class="form-control" id="hora" name="hora">
+                </div>
+
+                <!-- Botón de envío -->
+                <button type="submit" class="btn btn-primary">Apartar Cancha</button>
+            </form>
+        </div>
+    </div>
+</div>

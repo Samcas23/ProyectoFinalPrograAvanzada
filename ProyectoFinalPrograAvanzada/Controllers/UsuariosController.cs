@@ -23,5 +23,10 @@ namespace ProyectoFinalPrograAvanzada.Controllers
         {
             return View();
         }
+
+        public IActionResult ActualizarContrasenna()
+        {
+            return View();
+        }
     }
 }
